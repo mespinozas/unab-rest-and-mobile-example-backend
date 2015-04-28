@@ -36,19 +36,19 @@
             }
         },
         "appsec": {
-          "enabled": true,
-          "priority": 100,
-          "module": {
-            "name": "lusca",
-            "arguments": [
-              {
-                "csrf": false,
-                "p3p": false,
-                "xframe": "SAME-ORIGIN",
-                "csp": false
-              }
-            ]
-          }
+            "enabled": true,
+            "priority": 110,
+            "module": {
+                "name": "lusca",
+                "arguments": [
+                    {
+                        "csrf": false,
+                        "p3p": false,
+                        "csp": false
+                    }
+                ]
+            }
         }
+
     }
 }
