@@ -1,7 +1,7 @@
 {
   "databaseConfig": {
     "mongoDbUrl" : "mongodb://localhost:27017/",
-    "dbName": "unabexample"
+    "dbName": "etickettest"
   },
 
   "winstonConfig": {
@@ -9,7 +9,7 @@
       "level" : "debug",
       "colorize": true,
       "safe"  : "false",
-      "dbUri" : "mongodb://localhost:27017/unabexample"
+      "dbUri" : "mongodb://localhost:27017/etickettest"
   },
 
   "middleware": {
