@@ -12,13 +12,13 @@ Este proyecto es un ejemplo simple de como poder crear un proyecto basado en RES
  
 *Instrucciones*:
 
-- Verificar que nodejs esté correctamente instalado: escribir en la consola 
+- Verificar que nodejs esté correctamente instalado: escribir en la consola
 $ node -v
 Deberia aparecer la version de nodejs
 
 - Usar KrakenJS para crear una plantilla de proyecto. Seguir instrucciones desde su pagina principal
-- Una vez creado el proyecto, ejecutar: 
-$npm start 
+- Una vez creado el proyecto, ejecutar:
+$npm start
 La aplicación deberia iniciar
 
 *Posibles problemas con Windows 8*:
@@ -28,4 +28,3 @@ install Python 2.7.x
 install Microsoft Visual Studio C++ 2012 Express
 Run NPM update
 $ npm update -g
-
