@@ -14,13 +14,7 @@ options = {
 
       var dbConnectionString = dbData.mongoDbUrl + dbData.dbName;
 
-      var options = {
-        db: { native_parser: true },
-        server: { poolSize: 5 },
-        user: 'admin',
-        pass: '3pmz2pmSUx8N'
-      }
-      mongoose.connect(dbConnectionString,options);
+      mongoose.connect(dbConnectionString);
 
       var database = mongoose.connection;
 
