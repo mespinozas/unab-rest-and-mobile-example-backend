@@ -6,7 +6,7 @@ module.exports = function (router) {
 
   router.get('/', function (req, res) {
 
-    productsLib.getAll(function(error, results){
+    usersLib.getAll(function(error, results){
 
       res.setHeader('Access-Control-Allow-Origin','*');
 
